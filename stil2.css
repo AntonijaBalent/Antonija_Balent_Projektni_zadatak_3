@@ -1,0 +1,144 @@
+ul {	
+			padding:40px; 
+			margin-left: 90px;
+			margin-right:50px; 
+			width:500px;
+			} 
+	li {	display:inline; 
+			background-color:rgb(227, 196, 152,0.5);
+			padding: 25px;
+			border: 2px solid white;
+			font-family: 'Lora', serif;
+			border-radius: 50px;
+		}
+	li:active {background-color: black;} 
+		
+	li a {	color:black; 
+			text-transform: uppercase;
+			} 
+	li a:link {text-decoration:none;}
+	li a:hover {
+		text-decoration:underline;
+		color: white;
+		background-color: gray;
+	} 
+	
+
+
+p{
+		
+		font-family: 'Lora', serif;
+		font-size: 18px; 
+		padding:25px;
+		background-color: rgb(227, 196, 152, 0.3);
+		width: 850px;
+		text-align: center;	
+		justify-content: center;
+		border-radius: 50px;
+		
+	}	
+
+@font-face {
+    font-family: "AntonijaBalent";
+    src: url("AntonijaBalent.ttf");
+}
+
+
+
+h1{
+		background-color: rgb(111, 159, 166, 0.5);
+		color: white;
+		padding: 50px;
+		font-family: "AntonijaBalent"; sans-serif;
+		font-size: 90px; 
+		width: 1200px;
+		display: flex;	
+		justify-content: center;
+		border: 2px solid white; 
+		border-radius: 10px;
+		}  
+
+h2{
+	background-color: rgb(123, 130, 133, 0.5);
+	color: white;
+	padding: 15px;
+	line-height: 80px;
+	font-size: 28px; 
+	width: 900px;
+	display: flex;	
+	justify-content: center;
+	font-family: 'Lora', serif;
+	border-radius: 30px;
+
+}
+
+h3 {
+	padding: 25px;
+	background-color: rgb(123, 130, 133, 0.5);
+	color: white;
+	width: 900px;
+	line-height:40px;
+	display: flex;	
+	justify-content: center;
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	border-radius: 30px;
+}
+
+body {
+	background-image: url("pozadina2.jpg");
+}	 
+
+
+
+
+.container { 
+			display: flex;	
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+}
+
+.slike {
+			display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.slike2 {
+			display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slike3 {
+			display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.linkvjezbe {
+		color; white;
+		background-color: rgb(227, 196, 152, 0.5);
+		padding: 30px;
+		border: 2px solid white;
+		font-family: 'Lora', serif;
+		border-radius: 50px;
+		text-decoration:none;
+}
+
+.linkvjezbe:active {
+	background-color: black;
+}
+
+.linkvjezbe:hover {
+		
+		text-decoration:underline;
+		color: white;
+		background-color: gray;
+}
+
+.linkvjezbe:visited {
+		color: white;
+}
+
